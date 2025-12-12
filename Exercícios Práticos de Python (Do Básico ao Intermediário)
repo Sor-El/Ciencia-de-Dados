@@ -1,0 +1,182 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNHunY7VFO0QCi7B1S5P//l",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Sor-El/Ciencia-de-Dados/blob/main/Exerc%C3%ADcios%20Pr%C3%A1ticos%20de%20Python%20(Do%20B%C3%A1sico%20ao%20Intermedi%C3%A1rio)\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Introdução ao Python"
+      ],
+      "metadata": {
+        "id": "O4-aJiBfYW0A"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### Nível 1: Fundamentos (Variáveis e Entrada/Saída)\n",
+        "\n",
+        "Exercício 1.1: Saudação Personalizada\n",
+        "Objetivo: Praticar input(), print() e variáveis.\n",
+        "Tarefa: Crie um programa que pede o nome do usuário e, em seguida, imprime uma mensagem de boas-vindas personalizada.\n",
+        "Exemplo: Se o usuário digitar \"Carlos\", o programa imprime \"Olá, Carlos! Bem-vindo ao mundo Python.\n"
+      ],
+      "metadata": {
+        "id": "MT_q1YgeYgxW"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kL4oU_WRTvgi",
+        "outputId": "9090626b-173d-42f3-89a0-1f12f5b7bc7e"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite seu nome:Jefferson\n",
+            "Olá, Jefferson! Bem-vindo ao mundo Python.\n"
+          ]
+        }
+      ],
+      "source": [
+        "saudacao = input(\"Digite seu nome:\")\n",
+        "print(f\"Olá, {saudacao}! Bem-vindo ao mundo Python.\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Exercício 1.2: Calculadora de IMC (Índice de Massa Corporal)\n",
+        "\n",
+        "Objetivo: Praticar operações matemáticas, variáveis e conversão de tipos (int() ou float()).\n",
+        "Tarefa: Peça ao usuário que insira seu peso (em kg) e sua altura (em metros). Calcule o IMC usando a fórmula: IMC = peso / (altura * altura). Imprima o resultado."
+      ],
+      "metadata": {
+        "id": "PN1XgF-dn4rs"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "altura = float(input(\"Digite a sua altura:\"))\n",
+        "peso = float(input(\"Digite o seu peso kg:\"))\n",
+        "\n",
+        "IMC = peso / (altura * altura)\n",
+        "\n",
+        "print(f\"seu IMC é {IMC:.2f}kg/m²!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nnRDp5VUoFXi",
+        "outputId": "da649ac3-902f-44f4-d1b9-f2d098e08f95"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a sua altura:1.80\n",
+            "Digite o seu peso kg:115\n",
+            "seu IMC é 35.49kg/m²!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Nível 2: Lógica de Controle (if/else e Loops)\n",
+        "\n",
+        "Exercício 2.1: Classificador de Idade\n",
+        "Objetivo: Praticar if/elif/else.\n",
+        "Tarefa: Peça a idade do usuário.\n",
+        "Se a idade for 18 ou mais, imprima \"Você é maior de idade.\"\n",
+        "Se for menor que 18, imprima \"Você é menor de idade.\""
+      ],
+      "metadata": {
+        "id": "B-zet3Yz1B4f"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "idade =  int(input(\"Digita sua idade:\"))\n",
+        "\n",
+        "if idade >= 18:\n",
+        "   print(\"Você é maior de idade\")\n",
+        "else:\n",
+        "   print(\"Você é menor de idade\")"
+      ],
+      "metadata": {
+        "id": "nwvgQ7S61b-_"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Exercício 2.2: Contador Progressivo\n",
+        "Objetivo: Praticar for loop e a função range().\n",
+        "Tarefa: Use um for loop para imprimir os números de 1 a 10 no terminal. Cada número deve estar em uma nova linha."
+      ],
+      "metadata": {
+        "id": "fWNEm8Ey21Q7"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range(1,11):\n",
+        "  print(f\"número {i}\")"
+      ],
+      "metadata": {
+        "id": "Ar88i1ul23ns"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "hEyxNhnn2_nT"
+      }
+    }
+  ]
+}
