@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMtjt5vFwzDRjSC+PlBuK19",
+      "authorship_tag": "ABX9TyOIB/oRkAuCIZnMCGPv2Yfh",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,12 +28,37 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 2,
       "metadata": {
-        "id": "ORNQr8RXoG2P"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ORNQr8RXoG2P",
+        "outputId": "136231b4-8709-4f4d-84b5-e4a337074ce6"
       },
-      "outputs": [],
-      "source": []
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Name: Resident Evil 4 Remake\n",
+            "Year Launched: 2023\n",
+            "Game Price: 300.0\n",
+            "Plan Included: False\n"
+          ]
+        }
+      ],
+      "source": [
+        "Name = \"Resident Evil 4 Remake\"\n",
+        "YearLauch = 2023\n",
+        "gamePrice = 300.00\n",
+        "planIcluded = False\n",
+        "\n",
+        "print(\"Name:\", Name)\n",
+        "print(\"Year Launched:\", YearLauch)\n",
+        "print(\"Game Price:\", gamePrice)\n",
+        "print(\"Plan Included:\", planIcluded)"
+      ]
     }
   ]
 }
