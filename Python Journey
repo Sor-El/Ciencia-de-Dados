@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOIB/oRkAuCIZnMCGPv2Yfh",
+      "authorship_tag": "ABX9TyM5KoigQazv7ICfjZs7c1pC",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,7 +28,25 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 2,
+      "source": [
+        "GAMETOCA"
+      ],
+      "metadata": {
+        "id": "7UrndNKJvlRf"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "2zG8tx5kvkLP"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -58,6 +76,82 @@
         "print(\"Year Launched:\", YearLauch)\n",
         "print(\"Game Price:\", gamePrice)\n",
         "print(\"Plan Included:\", planIcluded)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = input(\"Digite o nome do jogo: \")\n",
+        "print(name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Yl1QyIT50D3E",
+        "outputId": "8f6f9c7d-db36-40f8-d425-4b92bd0b8434"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o nome do jogo: FIFA 24\n",
+            "FIFA 24\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "UTILIZANDO O INPUT"
+      ],
+      "metadata": {
+        "id": "F34jtvwWzMCl"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#utilzando o input\n",
+        "\n",
+        "\n",
+        "#GAMETECA\n",
+        "\n",
+        "name = input(\"Digite o nome do jogo\")\n",
+        "print(name)\n",
+        "YearLauch = int(input(\"Digite o ano de lançamento do jogo:\"))\n",
+        "print(YearLauch)\n",
+        "gamePrice = float(input(\"Digite o preço do jogo:\"))\n",
+        "print(gamePrice)\n",
+        "planIcluded = bool(input(\"Está incluso no plano mensal?\"))\n",
+        "print(planIcluded)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EGAfleBOzqCR",
+        "outputId": "2f569f81-f3aa-4579-a32e-23993eddae6f"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o nome do jogofifa23\n",
+            "fifa23\n",
+            "Digite o ano de lançamento do jogo:2021\n",
+            "2021\n",
+            "Digite o preço do jogo:120.00\n",
+            "120.0\n",
+            "Está incluso no plano mensal?\n",
+            "False\n"
+          ]
+        }
       ]
     }
   ]
