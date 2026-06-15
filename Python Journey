@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyM5KoigQazv7ICfjZs7c1pC",
+      "authorship_tag": "ABX9TyOSVmdDF5+KsEJ28psb9Efo",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -150,6 +150,230 @@
             "120.0\n",
             "Está incluso no plano mensal?\n",
             "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "CONCATENAR VALORES"
+      ],
+      "metadata": {
+        "id": "83gM1Phn2gyb"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "aGWVrs_q2uBq"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#utilzando o input\n",
+        "\n",
+        "\n",
+        "#GAMETECA\n",
+        "\n",
+        "name = input(\"Digite o nome do jogo\")\n",
+        "print(name)\n",
+        "YearLauch = int(input(\"Digite o ano de lançamento do jogo:\"))\n",
+        "print(YearLauch)\n",
+        "gamePrice = float(input(\"Digite o preço do jogo:\"))\n",
+        "print(gamePrice)\n",
+        "planIcluded = bool(input(\"Está incluso no plano mensal?\"))\n",
+        "print(planIcluded)\n",
+        "\n",
+        "print(\"### Dados do Jogo###\")\n",
+        "print(\"=====================\")\n",
+        "\n",
+        "print(\"Nome do Jogo:\",name)\n",
+        "print(\"Ano do Jogo:\",YearLauch)\n",
+        "print(\"Digite o preço do Jogo:\",gamePrice)\n",
+        "print(\"Está incluso no plano Mensal:\",planIcluded)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "f63e3920-e589-4c8f-d287-1499b0794f29",
+        "id": "8eCH8ARx2ufF"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o nome do jogoFIFA 23\n",
+            "FIFA 23\n",
+            "Digite o ano de lançamento do jogo:2021\n",
+            "2021\n",
+            "Digite o preço do jogo:120.00\n",
+            "120.0\n",
+            "Está incluso no plano mensal?sim\n",
+            "True\n",
+            "### Dados do Jogo###\n",
+            "=====================\n",
+            "Nome do Jogo: FIFA 23\n",
+            "Ano do Jogo: 2021\n",
+            "Digite o preço do Jogo: 120.0\n",
+            "Está incluso no plano Mensal: True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Utilizando Operadores Aritméticos e Relacionais"
+      ],
+      "metadata": {
+        "id": "CWmkN_Nq710z"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = int(input(\"Digite o primeiro número:\"))\n",
+        "num2 = int(input(\"Digite o segundo número:\"))\n",
+        "\n",
+        "#Aritiméticos\n",
+        "\n",
+        "Sum = num1 + num2\n",
+        "Sub = num1 - num2\n",
+        "Div = num1 / num2\n",
+        "Mult = num1 * num2\n",
+        "Exp = num1 ** num2\n",
+        "Mod = num1 % num2\n",
+        "DivInt = num1 // num2\n",
+        "\n",
+        "#Relacionais\n",
+        "\n",
+        "Maior = num1 > num2\n",
+        "Menor = num1 < num2\n",
+        "MaiorIgual = num1 >= num2\n",
+        "MenorIgual = num1 <= num2\n",
+        "Igual = num1 == num2\n",
+        "Diferente = num1 != num2\n",
+        "\n",
+        "print(\"### Operadores Aritiméticos ###\")\n",
+        "print(\"================================\")\n",
+        "print(\"Soma:\",Sum)\n",
+        "print(\"Subtração:\",Sub)\n",
+        "print(\"Divisão:\",Div)\n",
+        "print(\"Multiplicação:\",Mult)\n",
+        "print(\"Exponenciação:\",Exp)\n",
+        "print(\"Módulo:\",Mod)\n",
+        "print(\"Divisão Inteira:\",DivInt)\n",
+        "print(\"================================\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "97ogjo6z74Ml",
+        "outputId": "9b2082d4-3317-4d5f-84c7-55657c2c4d8c"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o primeiro número:16\n",
+            "Digite o segundo número:9\n",
+            "### Operadores Aritiméticos ###\n",
+            "================================\n",
+            "Soma: 25\n",
+            "Subtração: 7\n",
+            "Divisão: 1.7777777777777777\n",
+            "Multiplicação: 144\n",
+            "Exponenciação: 68719476736\n",
+            "Módulo: 7\n",
+            "Divisão Inteira: 1\n",
+            "================================\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Exercício 1 Antecessor e Sucessor Número  Média Notas\n",
+        "\n",
+        "*Escreva um programa em Python que leia um número e represente o número antecessor e sucesso dese número que foi lido, utilizando operadores de atribuição.\n",
+        "\n",
+        "*Media de 4 notas:\n",
+        "Escreva um programa em Python que leia quatro números e calcule a média entre esses números"
+      ],
+      "metadata": {
+        "id": "b0gmW6aq_blB"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Number = int(input(\"Digite um número:\"))\n",
+        "\n",
+        "\n",
+        "print(f\"Antecessor do número:{Number} é {Number -1} e o sucessor é {Number +1}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "H0rMc4bxATzT",
+        "outputId": "b5a07f63-df0c-4d74-9910-f44ce2b6cd25"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um número:2\n",
+            "Antecessor do número:2 é 1 e o sucessor é 3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = float(input(\"Digite a primeira nota:\"))\n",
+        "num2 = float(input(\"Digite a segunda nota:\"))\n",
+        "num3 = float(input(\"Digite a terceira nota:\"))\n",
+        "num4 = float(input(\"Digite a quarta nota:\"))\n",
+        "\n",
+        "Media = (num1 + num2 + num3 + num4) / 4\n",
+        "\n",
+        "print(f\"A média das notas é:{Media}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Dl6ROs8CCAEp",
+        "outputId": "6d1fd6e1-024a-44db-cce6-cfa61522a5a1"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a primeira nota:9\n",
+            "Digite a segunda nota:8\n",
+            "Digite a terceira nota:7\n",
+            "Digite a quarta nota:5\n",
+            "A média das notas é:7.25\n"
           ]
         }
       ]
