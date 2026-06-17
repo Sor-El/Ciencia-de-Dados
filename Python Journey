@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOSVmdDF5+KsEJ28psb9Efo",
+      "authorship_tag": "ABX9TyMk/qpES78cSx1HjIWLTT70",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -136,7 +136,7 @@
         "id": "EGAfleBOzqCR",
         "outputId": "2f569f81-f3aa-4579-a32e-23993eddae6f"
       },
-      "execution_count": 3,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -204,7 +204,7 @@
         "outputId": "f63e3920-e589-4c8f-d287-1499b0794f29",
         "id": "8eCH8ARx2ufF"
       },
-      "execution_count": 5,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -281,7 +281,7 @@
         "id": "97ogjo6z74Ml",
         "outputId": "9b2082d4-3317-4d5f-84c7-55657c2c4d8c"
       },
-      "execution_count": 13,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -332,7 +332,7 @@
         "id": "H0rMc4bxATzT",
         "outputId": "b5a07f63-df0c-4d74-9910-f44ce2b6cd25"
       },
-      "execution_count": 14,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -363,7 +363,7 @@
         "id": "Dl6ROs8CCAEp",
         "outputId": "6d1fd6e1-024a-44db-cce6-cfa61522a5a1"
       },
-      "execution_count": 15,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -377,6 +377,73 @@
           ]
         }
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Detalhando a Utilização de Strings"
+      ],
+      "metadata": {
+        "id": "NXq5-KgaV0Fn"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Gamename = \"FIFA 20\"\n",
+        "Gamename2 = \"fifa 20\"\n",
+        "\n",
+        "print(Gamename)\n",
+        "print(Gamename2)\n",
+        "gameDescription = \"\"\"\n",
+        "FIFA 20 é um jogo de simulação de futebol\n",
+        "desenvolvido pela Electronic Arts, que possibilita\n",
+        "vários jogadores simutanimente online e offline.\n",
+        "\"\"\"\n",
+        "\n",
+        "print(gameDescription)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1qX3myqMV1_7",
+        "outputId": "226790f6-5920-4ad3-bbf3-282a0c63b236"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "FIFA 20\n",
+            "fifa 20\n",
+            "\n",
+            "FIFA 20 é um jogo de simulação de futebol \n",
+            "desenvolvido pela Electronic Arts, que possibilita\n",
+            "vários jogadores simutanimente online e offline.\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Utilizando Operações com Strings"
+      ],
+      "metadata": {
+        "id": "-eRoAkajZy-1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "cnDN1REjZ2Ia"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
