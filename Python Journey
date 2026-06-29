@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMk/qpES78cSx1HjIWLTT70",
+      "authorship_tag": "ABX9TyOPpKkBRe7asgigPiQS2ojd",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -410,7 +410,7 @@
         "id": "1qX3myqMV1_7",
         "outputId": "226790f6-5920-4ad3-bbf3-282a0c63b236"
       },
-      "execution_count": 4,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
@@ -430,7 +430,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "# Utilizando Operações com Strings"
+        "# Tipo de Dado Lista GAMESLIST"
       ],
       "metadata": {
         "id": "-eRoAkajZy-1"
@@ -438,9 +438,67 @@
     },
     {
       "cell_type": "code",
+      "source": [
+        "gamaname3 = \"Blasphemous\"\n",
+        "gameVersion = \" 1\"\n",
+        "line = \"=\"\n",
+        "\n",
+        "print(line * 25)\n",
+        "gameFullName = gamaname3 + gameVersion\n",
+        "print(gameFullName)\n",
+        "\n",
+        "print(line * 25)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cnDN1REjZ2Ia",
+        "outputId": "bac25ca8-194a-4bc9-b286-56a0ba2c6f38"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "=========================\n",
+            "Blasphemous 1\n",
+            "=========================\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "GamesList = [\"Blasphemous\",\"Blasphemous 2\",\"Terraria\",\"Stardew Valley\",\"Celeste\",\"Hades\",\"Hades 2\",\"Hollow Knight\",\"Ori and the Blind Forest\"]\n",
+        "print(GamesList[0])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QM10kVpb8Lvr",
+        "outputId": "ac9f72b8-7e0b-45a8-fcc8-2abe691d2b8f"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hades\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
       "source": [],
       "metadata": {
-        "id": "cnDN1REjZ2Ia"
+        "id": "4zANDdSz97_d"
       },
       "execution_count": null,
       "outputs": []
